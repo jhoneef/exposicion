@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+    <nav class="main-nav">
+        <ul>
+        <li>
+            <a href="/index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="/formulario/formulario.html">formulario</a>
+        </li>
+        <li>
+            <a href="#">Contacto</a>
+        </li>
+        <li>
+            <a href="/sub2/index.html">Sistemas Operativos 
+            </a>
+        </li>
+        </ul>  
+    </nav>
+   </div>
+
+    <!--formulario-->
+    
+    <form  action="contacto.html" method="post">
+
+        <fieldset>
+            <legend class="letra1">Formulario</legend>
+            <fieldset>
+                
+                <legend class="letra1">apellidos y nombres</legend>
+                <label for="">apellidos</label>
+                <input type="text" name="" id="" required placeholder=""><Br></Br>
+                <label for="">Nombres</label>
+                <input type="text" Name="" id="">
+                <br>
+            </fieldset><br>
+            <fieldset>
+                <legend class="letra1">Sexo</legend>
+                <input type="radio" name="Sexo" id="">Masculino<br>
+                <input type="radio" name="Sexo" id="">Femenino<br>
+            </fieldset><br>
+            <fieldset>
+                <legend class="letra1">lugar de nacimiento</legend>
+    
+                <label for="">departamento</label>
+                <select name="" id=""required>
+                    <option value="">Arequipa</option>
+                    <option value="">Ayaviri</option>
+                    <option value="">puno</option>
+                </select><br> <br>
+            
+                <label for="">Seleccione tu provincia</label>
+                <select name="" id="" required>
+                    <option value="">azangaro</option>
+                    <option value="">melgar</option>
+                    <option value="">acora</option>
+                </select><br><br>
+                
+    
+                <label for="">Seleccione Distrito</label>
+                <select name="" id=""required>
+                    <option value="">Santa Rosa</option>
+                    <option value="">Ayaviri</option>
+                    <option value="">Macari</option>
+                </select><br><br>  
+    
+            </fieldset><br> 
+    
+            <fieldset>
+                <legend class="letra1">Fecha de Nacimiento/Edad</legend><br>
+                <label for="">Fecha de Nacimiento:</label>
+                <input type="date" name="" id="" required>
+                <br>
+                <label for="">Edad:</label>
+            <input type="number" name="" id="" min="18" max="90">
+            <br>
+            </fieldset>
+            <br>
+    
+            <fieldset>
+                <Legend class="letra1">Selecciones un archivo</Legend>
+                <label for="">Selecciones un archivo</label>
+                <input type="file">
+            </fieldset>
+            <br>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    
+    </form> 
+</body>
+</html>
